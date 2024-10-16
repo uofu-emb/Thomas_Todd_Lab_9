@@ -8,7 +8,7 @@
 ## 6. While trains are absent, no barrier will be engaged.
 ## 7. If multiple trains are present, the barrier will not disengage until the last train departs - Safety Hazard if violated
 
-
+![alt text](https://github.com/uofu-emb/Thomas_Todd_Lab_9/blob/dev/Orig_FSM.HEIC)
 
 ## Table
 | number | arms_down | alarm_on | northbound_present | southbound_present | north_approach | south_approach | north_depart | south_depart | ringing | safety_hazard |
@@ -62,7 +62,7 @@
 | 14     | 2         | approach
 | 15     | 2         | approach
 
-
+![alt text](https://github.com/uofu-emb/Thomas_Todd_Lab_9/blob/dev/Numbered_FSM.HEIC)
 
 
 
