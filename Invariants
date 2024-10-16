@@ -30,6 +30,19 @@
 | 14     | 1         | 1        | 1                  | 0                  | 0              | 0              | 1            | 1            | 1       | 0             |
 | 15     | 1         | 1        | 1                  | 1                  | 1              | 1              | 1            | 1            | 1       | 0             |
 
-| number | invariant |
-|--------|-----------|
-| 16     |           |
+| number | invariant                                                            |
+|--------|----------------------------------------------------------------------|
+| 16     |  Trains only travel one direction per each track                     |
+| 17     |  An approach signal will always precede a depart signal.             |
+| 18     |  An alarm will always sound after an approach event                  |
+| 19     |  While a train is present there shall be an alarm and barrier engaged|
+| 20     |  While a train is approaching, an alarm shall sound and a            |
+|        |barrier shall lower after 10 seconds                                  |
+| 21     |  While trains are absent, no barrier will be engaged                 |
+| 22     |  If multiple trains are present, the barrier will not disengage      |
+|        |  until the last train departs                                        |
+
+
+
+
+
